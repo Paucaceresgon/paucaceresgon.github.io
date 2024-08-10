@@ -1,0 +1,439 @@
+body{
+    background-size: 2000px 4000px ;
+    background-image: url(pic/Fondo_azul_degrade.jpg)
+}
+
+header {
+    background-color: rgba(233, 200, 53, 0.393);
+    border-radius: 30px;
+    text-align: center;  
+    padding: 2px 30px;
+}
+
+header h1 {
+    font-family: "Sofia", sans-serif;
+    color: rgb(246, 249, 226);
+    text-shadow: 2px 2px #533007;
+    margin-bottom: 8px; 
+    font-size: 400%;    
+}
+
+header p {
+    font-family: "Sofia", sans-serif;
+    color: rgb(246, 249, 226);
+    text-shadow: 2px 2px #533007; 
+    margin-top: 4px; 
+    font-size: 200%;
+    position: static;  
+    margin-bottom: 10%; 
+}
+
+nav{
+    background-color: rgba(0, 120, 139, 0.176);
+    background-size:1000px 500px ;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+
+
+
+}
+
+
+ul#menu li {
+    font-family: 'Barrio';
+    font-size: 20px;
+    display: inline-block;
+    padding: 0px 40px;
+    margin-left: 45px;
+  
+}
+
+a { 
+    color: rgb(196, 245, 245);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(109, 32, 190);
+    border-radius: 20px;
+}
+
+section#yo{
+    width: 60%;
+    margin: 20px 0;
+}
+
+.sobre_mi{
+    display: flex;
+    align-items: center;
+}
+
+section#yo h2 {
+    margin-top: 20%;
+    font-family: 'Liu Jian Mao Cao';
+    font-size: 30px;
+    color: antiquewhite;  
+    padding-left: 60%;  
+}
+
+section#yo p {
+    flex: 1;
+    text-align: center;
+    margin-right: 30px ;
+    padding-bottom: 50%; 
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Comic Neue'  
+          
+}
+
+#pic_yo {
+    width: 50%;
+    border-radius: 30px;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 10%;
+    margin-left: 2%;
+    padding-bottom: 50%;
+ 
+}
+
+section#habilidades {
+    background-image: url(pic/pizarra.png);
+    border-radius: 20px;
+    padding-bottom: 10%;
+}
+
+
+section#habilidades h2 {
+    font-family: 'Cabin Sketch';
+    font-size: 40px;
+    color: rgb(241, 233, 221);
+    text-align: center;   
+    padding-top: 5%;
+}
+
+section#habilidades li{
+    color: aliceblue;
+    font-family: 'Cabin Sketch';
+    font-size: 20px;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+.html {
+    color: rgb(142, 7, 7);
+    font-family: 'Cabin Sketch';
+    font-size: 25px;
+}
+
+.css {
+    color: rgb(13, 5, 105);
+    font-family: 'Cabin Sketch';
+    font-size: 25px;
+}
+
+.java {
+    color: rgb(134, 145, 11);
+    font-family: 'Cabin Sketch';
+    font-size: 25px;
+}
+
+.competencias {
+    color: rgb(120, 56, 198);
+    font-family: 'Cabin Sketch';
+    font-size: 25px;
+}
+
+.Git {
+    color: #bb17dc;
+    font-family: 'Cabin Sketch';
+    font-size: 25px;
+}
+
+
+section#projectos {
+    background-image: url(pic/Degrade_atardecer.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+
+section#projectos h2 {
+    margin-top: 50%;
+    padding-top: 50px;
+    font-family: 'Liu Jian Mao Cao';
+    font-size: 50px;
+    color: antiquewhite;  
+    padding-left: 25%; 
+    padding-bottom: 20px ;
+}
+
+section#projectos h3{
+    padding-top: 20px;
+    padding-left:15%;
+    color: rgb(245, 240, 225);
+    font-size: 18px;
+    font-family: 'Chilanka'                
+    }
+
+article#project_1 p,h4 {
+    padding-left: 10%;
+    padding-right: 40% ;    
+    color:rgb(245, 240, 225);
+    font-size: 20px;
+    font-family: 'Chilanka' 
+         
+}
+
+#galeria {
+    display: flex;
+    width: 600px;
+    height: 430px;
+    padding-left: 15% ;
+}
+
+.galeria {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.galeria:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(100%);
+}
+
+#pie_de_foto {
+    font-size: 15px;
+    margin-top: 1mm;
+    padding-bottom: 50px;
+}
+
+
+section#proyecto_2 {
+    background-size: cover;
+    background-image: url(pic/ledes_azul.jpg);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+section#proyecto_2 h2 {
+    font-family: 'Liu Jian Mao Cao';
+    font-size: 40px;
+    color: antiquewhite;
+    margin-bottom: 10px;
+}
+
+article#proyecto_2 h3 {
+    font-family: 'Chilanka';
+    font-size: 20px;
+    color: rgb(232, 222, 191);
+    margin-bottom: 20px;
+}
+
+#contenedor_imagenes_texto {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+}
+
+#imagenes {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.imag_proyecto_2 {
+    width: 400px;
+    margin-bottom: 10px;
+    opacity: .7;
+    border-radius: 15px;
+}
+
+
+.imag_proyecto_2:hover {
+    opacity: 1;
+    filter: contrast(150%);
+}
+
+article#proyecto_2 p {
+    font-family: 'Chilanka';
+    font-size: 18px;
+    color: #e5d7c8;
+    text-align: left;
+    margin-top: 20px;
+    width: 50%;
+    padding-left: 30%;
+}
+
+
+
+section#formacion h2 {
+    font-family:'Liu Jian Mao Cao';
+    font-size: 40px; ;
+    color: #fff7e9d0;
+    padding-left: 44%;
+    margin-top: 20%;
+}
+
+
+table{
+
+    background-color: rgba(250, 235, 215, 0.505);
+    font-size: 15px;
+    font-family: 'Chilanka';
+    padding: 3%;
+    margin-left: 25%;
+    border-radius: 50px;
+    margin-bottom: 20%;
+
+
+}
+
+th { 
+    background-color: #88599a7e;
+    color: #e4e4eb;
+    border: solid 2px #7775df;
+    padding: 10px 5px;
+    border-radius: 20px;
+}
+
+td{
+    background-color: #c658d979;
+    color: white;
+    border: solid 1px #2faca2c5;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+section#contac {
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    width: 500px;
+    padding: 20px;
+    gap: 10px
+}
+
+section#contact h2,p{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family:'Liu Jian Mao Cao';
+    font-size: 60px; ;
+    color: #fff7e9d0; ;
+}
+
+
+section#contact p { 
+    font-family: 'Chilanka';
+    font-size: 25px;
+}
+
+form{
+   display: flex;
+   flex-direction: column;
+   text-align: center; 
+   gap: 15px;
+}
+
+.input_box { 
+    position: relative;
+}
+
+.input_box > input {
+    width: 70%;
+    height: 50px;
+    padding: 0 10px;
+    outline: none;  
+    font-size: 20px; 
+    font-family: 'Barlow Semi Condensed';
+    background: rgba(163, 236, 248, 0.824);
+    border: 1px solid #dff1fc;
+    border-radius: 7px;
+    letter-spacing: 1px;
+    color: #36364f
+}
+
+.input_box > textarea {
+    width: 80%;
+    height: 90px;
+    border-radius: 7px;
+    font-family: 'Barlow Semi Condensed';   
+    background: rgba(163, 236, 248, 0.824);
+    border: solid 1px white;
+    color: #e8e8f3
+}
+
+form button {
+    background-color: #2d83bdea;
+    color: rgb(22, 15, 43);
+    border: solid 2px #7373bf;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Barlow Semi Condensed';   
+    font-size: 20px;
+    padding: 10px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+a#mail:hover, a#jap:hover{ 
+    color: black;
+    border-radius: 10px;
+}
+
+form button:hover {
+background-color: #d1f0ff;
+color: #06053c;
+border-radius: 5px;
+font-family: 'Barlow Semi Condensed';}
+
+footer {
+    background-color: #e7cbf959;
+    border-radius: 10px;
+    color: #7775df;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 10%
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer .redes_sociales {
+    display: inline-block;
+    margin: 10px 20px;
+    font-family:'Gochi Hand';;
+    
+}
+
+footer .redes_sociales a {
+    text-decoration: none;
+    color: #0b098fd0;
+    display: flex;
+    align-items: center;
+}
+
+footer .redes_sociales img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
