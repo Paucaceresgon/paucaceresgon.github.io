@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primer portafolio 😱 </title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <link href='https://fonts.googleapis.com/css?family=Barrio' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Liu Jian Mao Cao' rel='stylesheet'>
@@ -13,6 +12,8 @@
     <link href='https://fonts.googleapis.com/css?family=Chilanka' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Gochi Hand' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Barlow Semi Condensed' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
 
 </head>
 <body>
@@ -114,21 +115,24 @@
     <p>Si deseas contactarme, puedes enviarme un correo electrónico a <a id="mail" href="paucaceresgonph@gmail.com">paucaceresgonph@gmail.com</a> o podes enviarme alguna consulta en el siguiente formulario:</p>       
 </div>
 <form action="https://paucaceresgonph@gmail.com/submit-form" method="post">
-<div class="input_box">
-    <input type="text" required 
-    placeholder="Nombre y apellido">
-</div>
-<div class="input_box">
-    <input type="email" required
-    placeholder="Mail">
-</div>
-<div class="input_box">
-    <textarea cols="30" rows="10" 
-    placeholder="Escribe tu mensaje" required> </textarea>
-</div>       
-<button type="submit"> Enviar Mensaje</button>
+    <div class="input_box">
+        <label for="nombre">Nombre y apellido:</label>
+        <input type="text" id="nombre" required placeholder="Nombre y apellido">
+    </div>
+    <div class="input_box">
+        <label for="mail">Correo electrónico:</label>
+        <input type="email" id="mail" required placeholder="Mail">
+    </div>
+    <div class="input_box">
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje" required></textarea>
+    </div>       
+    <button type="submit">Enviar Mensaje</button>
 </form>
 </section>
+
+<button onclick="topFunction()" id="topBtn" title="Volver arriba">⬆</button>
+
 
 <footer>
     <p>2024 Paula Caceres</p>
